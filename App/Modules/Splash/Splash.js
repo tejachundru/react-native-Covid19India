@@ -8,11 +8,17 @@ class Splash extends PureComponent {
     this.state = {};
   }
 
+  componentDidMount = () => {
+    setTimeout(() => {
+      this.props.navigation.navigate('Home');
+    }, 1000);
+  };
+
   render() {
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <LottieView
-          source={require('../../../Assets/Animations/17902-covid19.json')}
+          source={require('../../../assets/Animations/17902-covid19.json')}
           autoPlay
           loop
         />
