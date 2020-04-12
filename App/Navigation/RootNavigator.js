@@ -4,18 +4,30 @@ import {createStackNavigator} from '@react-navigation/stack';
 // import {BackHandler} from 'react-native';
 import Splash from '../Modules/Splash/Splash';
 import HomeContainer from '../Modules/Home/Containers/Index';
+import StateDistrictContainer from '../Modules/Home/Containers/StateDataContainer';
 // import AppNavigator from './AppNavigator'; //
+import {createDrawerNavigator} from '@react-navigation/drawer';
 
 const Stack = createStackNavigator();
+const Drawer = createDrawerNavigator();
 
 function RootNavigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator headerMode="none" initialRouteName="Home">
-        <Stack.Screen name="Splash" component={Splash} />
-        <Stack.Screen name="Home" component={HomeContainer} />
-      </Stack.Navigator>
+      <Drawer.Navigator initialRouteName="HomeDrawer">
+        <Drawer.Screen name="HomeDrawer" component={HomeNavigator} />
+        <Drawer.Screen name="Do & Dont's" component={Splash} />
+      </Drawer.Navigator>
     </NavigationContainer>
+  );
+}
+
+function HomeNavigator() {
+  return (
+    <Stack.Navigator headerMode="none" initialRouteName="Home">
+      <Stack.Screen name="Home" component={HomeContainer} />
+      <Stack.Screen name="District" component={StateDistrictContainer} />
+    </Stack.Navigator>
   );
 }
 

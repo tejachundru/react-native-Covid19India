@@ -10,13 +10,13 @@ import {
 import {Fonts, Colors, Metrics} from '../../Themes';
 import {stateCodesMap} from '../../Utils';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {Header, Body, Title} from 'native-base';
 import RBSheet from 'react-native-raw-bottom-sheet';
 
 const HomeUI = (props) => {
   const refRBSheet = useRef();
 
   let [statewise, sortStateWise] = useState(props.data.statewise);
+  let stateDistrictWiseResponse = props.stateDistrictWiseResponse;
 
   let renderTextItem = (type, itemNo) => {
     return (
@@ -58,7 +58,7 @@ const HomeUI = (props) => {
     );
   };
 
-  const renderStateData = (item, index) => {
+  const renderStateData = (item) => {
     if (item.statecode === 'TT') {
       return renderListHeader();
     } else if (!(item.confirmed > 0)) {
@@ -68,8 +68,16 @@ const HomeUI = (props) => {
     difference = difference.getHours()
       ? difference.getHours() + ' hr'
       : difference.getMinutes() + ' m';
+    let stateName = stateCodesMap[item.statecode];
     return (
-      <View style={styles.item}>
+      <TouchableOpacity
+        onPress={() => {
+          props.navigation.navigate('District', {
+            stateData: item,
+            districtWiseResponse: stateDistrictWiseResponse[stateName],
+          });
+        }}
+        style={styles.item}>
         <View style={{flex: 0.4}}>
           <Text
             numberOfLines={2}
@@ -90,7 +98,7 @@ const HomeUI = (props) => {
             {renderStateTextItem('Deaths', item.deaths)}
           </View>
         </View>
-      </View>
+      </TouchableOpacity>
     );
   };
 
@@ -122,7 +130,7 @@ const HomeUI = (props) => {
             ...Fonts.style.f23b,
             color: Colors.white,
           }}>
-          {'Statewise Data'}
+          {'State Data'}
         </Text>
         <TouchableOpacity
           onPress={() => refRBSheet.current.open()}
@@ -165,21 +173,12 @@ const HomeUI = (props) => {
   };
 
   return (
-    <View style={{flex: 1}}>
-      <Header>
-        <Body>
-          <Title
-            style={{
-              ...Fonts.style.f28b,
-              color: Colors.blueBell,
-            }}>
-            {'Home'}
-          </Title>
-        </Body>
-      </Header>
+    <View
+      style={{
+        flex: 1,
+      }}>
       <FlatList
         ListHeaderComponent={renderIndiaData()}
-        contentContainerStyle={{backgroundColor: Colors.fieryFuchsia}} //State data
         data={statewise}
         renderItem={({item}) => renderStateData(item)}
         keyExtractor={(item) => item.id}
@@ -258,7 +257,6 @@ const styles = StyleSheet.create({
   },
   indianData: {
     padding: 20,
-    backgroundColor: Colors.fieryFuchsia,
   },
   indiaTextContainer: {
     backgroundColor: Colors.shipOfficer,
@@ -281,8 +279,13 @@ const styles = StyleSheet.create({
   iconContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: 20,
-    backgroundColor: Colors.fieryFuchsia,
+    marginHorizontal: 20,
+    paddingHorizontal: 15,
+    paddingVertical: 20,
+    marginTop: 4,
+    marginBottom: 5,
+    backgroundColor: 'grey',
+    borderRadius: 8,
   },
   sheetText: {
     ...Fonts.style.f20m,

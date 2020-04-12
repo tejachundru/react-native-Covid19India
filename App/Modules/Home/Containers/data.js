@@ -1415,3 +1415,2661 @@ export const datamock = {
     },
   ],
 };
+
+export const districtDataMock = {
+  Kerala: {
+    districtData: {
+      Thrissur: {
+        confirmed: 13,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Alappuzha: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kasaragod: {
+        confirmed: 164,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 3,
+        },
+      },
+      Pathanamthitta: {
+        confirmed: 16,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kannur: {
+        confirmed: 64,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Ernakulam: {
+        confirmed: 24,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kottayam: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Thiruvananthapuram: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Idukki: {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Malappuram: {
+        confirmed: 20,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Kozhikode: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Palakkad: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Wayanad: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kollam: {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Delhi: {
+    districtData: {
+      'East Delhi': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'South West Delhi': {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'West Delhi': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'North Delhi': {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'New Delhi': {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'South Delhi': {
+        confirmed: 26,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'North East Delhi': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'North West Delhi': {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 859,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 183,
+        },
+      },
+    },
+  },
+  Telangana: {
+    districtData: {
+      Hyderabad: {
+        confirmed: 104,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Karimnagar: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Bhadradri Kothagudem': {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Ranga Reddy': {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Medchal Malkajgiri': {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 311,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 16,
+        },
+      },
+      'Warangal Urban': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Vikarabad: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Adilabad: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nirmal: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nizamabad: {
+        confirmed: 18,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Peddapalli: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sangareddy: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jagitial: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Jogulamba Gadwal': {
+        confirmed: 17,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Mahabubnagar: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Suryapet: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Rajasthan: {
+    districtData: {
+      'Italians*': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jaipur: {
+        confirmed: 221,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 53,
+        },
+      },
+      Jhunjhunu: {
+        confirmed: 31,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bhilwara: {
+        confirmed: 28,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jodhpur: {
+        confirmed: 43,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 9,
+        },
+      },
+      Pali: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sikar: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Pratapgarh: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dungarpur: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Churu: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Ajmer: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Evacuees: {
+        confirmed: 48,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 8,
+        },
+      },
+      Alwar: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Tonk: {
+        confirmed: 27,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dhaulpur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Udaipur: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bharatpur: {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Bikaner: {
+        confirmed: 20,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dausa: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Banswara: {
+        confirmed: 24,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 12,
+        },
+      },
+      Karauli: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nagaur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jaisalmer: {
+        confirmed: 27,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 8,
+        },
+      },
+      Kota: {
+        confirmed: 19,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Jhalawar: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 3,
+        },
+      },
+      Barmer: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      EVACUEES: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Haryana: {
+    districtData: {
+      'Italians*': {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Gurugram: {
+        confirmed: 32,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Faridabad: {
+        confirmed: 28,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Panipat: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Panchkula: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Sonipat: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Palwal: {
+        confirmed: 28,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Ambala: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 4,
+        },
+      },
+      Sirsa: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hisar: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Rohtak: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nuh: {
+        confirmed: 38,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Karnal: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bhiwani: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kaithal: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Charki Dadri': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jind: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Fatehabad: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  'Uttar Pradesh': {
+    districtData: {
+      Agra: {
+        confirmed: 88,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 5,
+        },
+      },
+      Ghaziabad: {
+        confirmed: 25,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Lucknow: {
+        confirmed: 29,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Gautam Buddha Nagar': {
+        confirmed: 62,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Kheri: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Moradabad: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Varanasi: {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Kanpur Nagar': {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Pilibhit: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jaunpur: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Baghpat: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Shamli: {
+        confirmed: 17,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Meerut: {
+        confirmed: 44,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 6,
+        },
+      },
+      Bareilly: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bulandshahr: {
+        confirmed: 8,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Basti: {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Hardoi: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Shahjahanpur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Firozabad: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Azamgarh: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Saharanpur: {
+        confirmed: 20,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Pratapgarh: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hapur: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 3,
+        },
+      },
+      Ghazipur: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Banda: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Mahrajganj: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hatras: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Mirzapur: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Rae Bareli': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Bara Banki': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Auraiya: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Mathura: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Budaun: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kaushambi: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bijnor: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Prayagraj: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sitapur: {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Muzaffarnagar: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Amroha: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 5,
+        },
+      },
+      Rampur: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+    },
+  },
+  Ladakh: {
+    districtData: {
+      Leh: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Kargil: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  'Tamil Nadu': {
+    districtData: {
+      Kancheepuram: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Chennai: {
+        confirmed: 175,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 9,
+        },
+      },
+      Erode: {
+        confirmed: 55,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Coimbatore: {
+        confirmed: 90,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 26,
+        },
+      },
+      Tirunelveli: {
+        confirmed: 58,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Tiruppur: {
+        confirmed: 26,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Madurai: {
+        confirmed: 25,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Salem: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Vellore: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Tiruchirappalli: {
+        confirmed: 37,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Chengalpattu: {
+        confirmed: 36,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 12,
+        },
+      },
+      Thanjavur: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Virudhunagar: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Karur: {
+        confirmed: 22,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Tiruvannamalai: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Viluppuram: {
+        confirmed: 27,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 3,
+        },
+      },
+      Namakkal: {
+        confirmed: 41,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kanniyakumari: {
+        confirmed: 15,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Thoothukkudi: {
+        confirmed: 24,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Theni: {
+        confirmed: 41,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dindigul: {
+        confirmed: 54,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 8,
+        },
+      },
+      Sivaganga: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Tirupathur: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Thiruvarur: {
+        confirmed: 13,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Ranipet: {
+        confirmed: 35,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 9,
+        },
+      },
+      Ramanathapuram: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Thiruvallur: {
+        confirmed: 13,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nagapattinam: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Cuddalore: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Kallakurichi: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Perambalur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'The Nilgiris': {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 3,
+        },
+      },
+      Ariyalur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Tenkasi: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Thirupathur: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  'Jammu and Kashmir': {
+    districtData: {
+      Jammu: {
+        confirmed: 19,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Srinagar: {
+        confirmed: 17,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bandipore: {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 131,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 23,
+        },
+      },
+      Rajouri: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Badgam: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Baramula: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Shupiyan: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Udhampur: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kashmir: {
+        confirmed: 20,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Karnataka: {
+    districtData: {
+      Bengaluru: {
+        confirmed: 66,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Kalaburagi: {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Kodagu: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Chikkaballapura: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Mysuru: {
+        confirmed: 42,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 5,
+        },
+      },
+      Dharwad: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Uttara Kannada': {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Dakshina Kannada': {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Udupi: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Chitradurga: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Tumakuru: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Davanagere: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Ballari: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bidar: {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bagalkote: {
+        confirmed: 8,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Belagavi: {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Bengaluru Rural': {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Gadag: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Mandya: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Maharashtra: {
+    districtData: {
+      Pune: {
+        confirmed: 206,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Mumbai: {
+        confirmed: 876,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nagpur: {
+        confirmed: 19,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Thane: {
+        confirmed: 114,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Ahmadnagar: {
+        confirmed: 25,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Yavatmal: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Aurangabad: {
+        confirmed: 17,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Ratnagiri: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sangli: {
+        confirmed: 26,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Satara: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sindhudurg: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Gondiya: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kolhapur: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Other States*': {
+        confirmed: 8,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jalgaon: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Buldana: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nashik: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Osmanabad: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Washim: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hingoli: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Amravati: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Latur: {
+        confirmed: 8,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jalna: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Palghar: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bid: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Akola: {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 210,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 210,
+        },
+      },
+    },
+  },
+  Punjab: {
+    districtData: {
+      Amritsar: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Shahid Bhagat Singh Nagar': {
+        confirmed: 19,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'S.A.S. Nagar': {
+        confirmed: 48,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 11,
+        },
+      },
+      Hoshiarpur: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jalandhar: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Ludhiana: {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Patiala: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Rupnagar: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Mansa: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Pathankot: {
+        confirmed: 15,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 8,
+        },
+      },
+      Faridkot: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Barnala: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Fatehgarh Sahib': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kapurthala: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Moga: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Sri Muktsar Sahib': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sangrur: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+    },
+  },
+  'Andhra Pradesh': {
+    districtData: {
+      'S.P.S. Nellore': {
+        confirmed: 48,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Prakasam: {
+        confirmed: 40,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Visakhapatnam: {
+        confirmed: 20,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'East Godavari': {
+        confirmed: 17,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 5,
+        },
+      },
+      Krishna: {
+        confirmed: 35,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Chittoor: {
+        confirmed: 20,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Guntur: {
+        confirmed: 58,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 7,
+        },
+      },
+      Kurnool: {
+        confirmed: 77,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Anantapur: {
+        confirmed: 15,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      'West Godavari': {
+        confirmed: 22,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Y.S.R.': {
+        confirmed: 29,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Uttarakhand: {
+    districtData: {
+      Dehradun: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Pauri Garhwal': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Udham Singh Nagar': {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nainital: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Haridwar: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Almora: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Odisha: {
+    districtData: {
+      Khordha: {
+        confirmed: 35,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bhadrak: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Cuttack: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Puri: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jajapur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kalahandi: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kendrapara: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dhenkanal: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Puducherry: {
+    districtData: {
+      Mahe: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Puducherry: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+    },
+  },
+  'West Bengal': {
+    districtData: {
+      Kolkata: {
+        confirmed: 11,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'North 24 Parganas': {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nadia: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Medinipur East': {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kalimpong: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hooghly: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Howrah: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'South 24 Parganas': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 89,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 13,
+        },
+      },
+    },
+  },
+  Chandigarh: {
+    districtData: {
+      Chandigarh: {
+        confirmed: 19,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+    },
+  },
+  Chhattisgarh: {
+    districtData: {
+      Raipur: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Rajnandgaon: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bilaspur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Durg: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Korba: {
+        confirmed: 10,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Gujarat: {
+    districtData: {
+      Rajkot: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Surat: {
+        confirmed: 27,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 3,
+        },
+      },
+      Ahmadabad: {
+        confirmed: 197,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 55,
+        },
+      },
+      Vadodara: {
+        confirmed: 59,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 37,
+        },
+      },
+      Gandhinagar: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Kachchh: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Mahesana: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bhavnagar: {
+        confirmed: 22,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 4,
+        },
+      },
+      Porbandar: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Gir Somnath': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Panch Mahals': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Patan: {
+        confirmed: 18,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 6,
+        },
+      },
+      'Chota Udaipur': {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jamnagar: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Morbi: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Anand: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Sabar Kantha': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dahod: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bharuch: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 7,
+        },
+      },
+    },
+  },
+  'Himachal Pradesh': {
+    districtData: {
+      Kangra: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Una: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 12,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sirmaur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  'Madhya Pradesh': {
+    districtData: {
+      Jabalpur: {
+        confirmed: 9,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bhopal: {
+        confirmed: 116,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 18,
+        },
+      },
+      Indore: {
+        confirmed: 235,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 14,
+        },
+      },
+      Ujjain: {
+        confirmed: 15,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Gwalior: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Shivpuri: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Chhindwara: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Morena: {
+        confirmed: 13,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Khargone: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Barwani: {
+        confirmed: 14,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Betul: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Vidisha: {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      'Other Region*': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sheopur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Khandwa: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dhar: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hoshangabad: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Raisen: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dewas: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Sagar: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+      Shajapur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+    },
+  },
+  Bihar: {
+    districtData: {
+      Munger: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Patna: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Siwan: {
+        confirmed: 29,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 2,
+        },
+      },
+      Nalanda: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Lakhisarai: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Gopalganj: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Gaya: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Begusarai: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Saran: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bhagalpur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nawada: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Manipur: {
+    districtData: {
+      'Imphal West': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Mizoram: {
+    districtData: {
+      Aizawl: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Goa: {
+    districtData: {
+      'North Goa': {
+        confirmed: 4,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  'Andaman and Nicobar Islands': {
+    districtData: {
+      'South Andaman': {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'North and Middle Andaman': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Unknown: {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Jharkhand: {
+    districtData: {
+      Ranchi: {
+        confirmed: 7,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hazaribagh: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Bokaro: {
+        confirmed: 6,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+    },
+  },
+  Assam: {
+    districtData: {
+      Cachar: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'Kamrup Metropolitan': {
+        confirmed: 5,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Jorhat: {
+        confirmed: 8,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Goalpara: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Nalbari: {
+        confirmed: 3,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'South Salmara Mancachar': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Kamrup: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Morigaon: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Golaghat: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Lakhimpur: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Dhubri: {
+        confirmed: 2,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      Hailakandi: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  'Arunachal Pradesh': {
+    districtData: {
+      Lohit: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  'Dadra and Nagar Haveli': {
+    districtData: {
+      Unknown: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+    },
+  },
+  Tripura: {
+    districtData: {
+      Gomati: {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 0,
+        },
+      },
+      'North Tripura': {
+        confirmed: 1,
+        lastupdatedtime: '',
+        delta: {
+          confirmed: 1,
+        },
+      },
+    },
+  },
+};
