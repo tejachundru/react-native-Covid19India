@@ -54,7 +54,7 @@ export default class DoContainer extends PureComponent {
           // style={{flex: 1, flexDirection: 'row', justifyContent: 'center'}}
           >
             <DoUI />
-            {/* <DontUI /> */}
+            <DontUI />
           </View>
         </Content>
       </Container>

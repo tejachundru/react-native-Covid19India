@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import {View} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
 import HomeUI from '../Components/HomeUI';
 import axios from 'axios';
 import LottieView from 'lottie-react-native';
-import {datamock, districtDataMock} from './data';
-import {Metrics, ApplicationStyles, Colors, Fonts} from '../../Themes';
+import {Metrics, Colors, Fonts} from '../../Themes';
 import {
   Header,
   Body,
@@ -31,7 +30,11 @@ export default class HomeContainer extends Component {
   // State-district-wise	https://api.covid19india.org/state_district_wise.json
   // State-district-wise V2	https://api.covid19india.org/v2/state_district_wise.json
 
-  componentWillMount = async () => {
+  componentWillMount = () => {
+    this.getIndiaData();
+  };
+
+  getIndiaData = async () => {
     try {
       const [response, stateDistrictWiseResponse, ,] = await Promise.all([
         axios.get('https://api.covid19india.org/data.json'),
@@ -43,11 +46,12 @@ export default class HomeContainer extends Component {
         stateDistrictWiseResponse: stateDistrictWiseResponse.data,
       });
     } catch (err) {
-      console.log(err);
+      this.setState({error: true, loading: false});
     }
   };
 
   render() {
+    let {loading, error} = this.state;
     return (
       <Container>
         <Header>
@@ -69,7 +73,7 @@ export default class HomeContainer extends Component {
           <Right />
         </Header>
         <Content>
-          {this.state.loading ? (
+          {loading && !error ? (
             <LottieView
               source={require('../../../../assets/Animations/17686-wash-your-hands-regularly.json')}
               autoPlay
@@ -78,6 +82,19 @@ export default class HomeContainer extends Component {
                 width: Metrics.screenWidth,
               }}
             />
+          ) : error ? (
+            <View style={styles.errorView}>
+              <Text style={{...Fonts.style.f18b, color: Colors.richGardenia}}>
+                {'Something Went Wrong'}
+              </Text>
+              <TouchableOpacity
+                style={styles.retryButton}
+                onPress={this.getIndiaData}>
+                <Text style={{...Fonts.style.f20m, color: Colors.blueBell}}>
+                  {'Retry'}
+                </Text>
+              </TouchableOpacity>
+            </View>
           ) : (
             <HomeUI
               data={this.state.response}
@@ -90,3 +107,28 @@ export default class HomeContainer extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  errorView: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: Metrics.screenHeight / 3,
+  },
+  retryButton: {
+    borderRadius: 4,
+    paddingVertical: 10,
+    borderWidth: 1,
+    paddingHorizontal: 30,
+    margin: 20,
+    borderColor: Colors.endingNavyBlue,
+    backgroundColor: Colors.white,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 4,
+    elevation: 6,
+  },
+});

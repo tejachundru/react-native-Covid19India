@@ -1,12 +1,5 @@
 import React, {useState, useRef} from 'react';
-import {
-  Text,
-  View,
-  ScrollView,
-  FlatList,
-  StyleSheet,
-  TouchableOpacity,
-} from 'react-native';
+import {Text, View, FlatList, StyleSheet, TouchableOpacity} from 'react-native';
 import {Fonts, Colors, Metrics} from '../../Themes';
 import {stateCodesMap} from '../../Utils';
 import Icon from 'react-native-vector-icons/FontAwesome';

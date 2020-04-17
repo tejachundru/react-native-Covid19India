@@ -1,117 +1,47 @@
-import * as React from 'react';
-import {Text, View, SafeAreaView} from 'react-native';
+import React from 'react';
+import {Text, View} from 'react-native';
+import {Fonts, Colors} from '../../Themes';
 
-import Carousel from 'react-native-snap-carousel';
-import {Metrics, Colors, Fonts} from '../../Themes';
-import LottieView from 'lottie-react-native';
+const dont = [
+  "DON'T Shake hands",
+  "DON'T Have a close contact with anyone, if you're experiencing cough and fever.",
+  "DON'T Touch your eyes, nose and mouth",
+  "DON'T Sneeze or cough into palms of your hands",
+  "DON'T Spit in Public",
+  "DON'T Travel unnecessarily, particularly to any affected region",
+  "DON'T Participate in large gatherings, including sitting in groups at canteens",
+  "DON'T Visit gyms, clubs and crowded places etc",
+  "DON'T Spread rumours or panic",
+];
 
-export default class DontUI extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeIndex: 0,
-      carouselItems: [
-        {
-          title: 'Hand Wash',
-          text:
-            'Practice frequent hand washing. Wash hands with soap and water or use alcohol-based hand rub. Wash hands even if they are visibly clean.',
-          animations: require('../../../../assets/Animations/17855-clean-hands-coronavirus.json'),
-        },
-        {
-          title: 'Cover your Nose & Mouth',
-          text:
-            'Cover your nose and mouth with handkerchief/tissue while sneezing and coughing.',
+const DontUI = ({params}) => (
+  <View>
+    <Text
+      style={{
+        ...Fonts.style.f38b,
+        textAlign: 'center',
+        color: Colors.georgiaPeach,
+      }}>
+      {"DONT's"}
+    </Text>
+    {dont.map((object) => {
+      return renderText(object);
+    })}
+  </View>
+);
 
-          animations: require('../../../../assets/Animations/17859-sneeze-coronavirus.json'),
-        },
-        {
-          title: 'Wear a Mask',
-          text:
-            'If you feel unwell (fever, difficulty in breathing and coughing) or a person who is caring for the sick or going out. wear a mask to cover your mouth and nose.',
-          animations: require('../../../../assets/Animations/17857-doctor-with-mask-coronavirus.json'),
-        },
-        {
-          title: 'Social Distancing',
-          text:
-            'Maintain a safe distance from persons during interaction, especially with those having flu-like symptoms.',
-          animations: require('../../../../assets/Animations/18389-social-distancing.json'),
-        },
-        {
-          title: 'Call Helplines',
-          text:
-            'For any fever/flu-like signs/symptoms, please call State helpline number or the 24x7 helpline number of the Ministry of Health & Family Welfare at 011-23978046.',
-          animations: require('../../../../assets/Animations/4452-dr-consultation.json'),
-        },
-        {
-          title: 'Stay Home',
-          text:
-            'Stay Home & Stay safe. \n Break the Chain \n Flatten the curve',
-          animations: require('../../../../assets/Animations/18168-stay-safe-stay-home.json'),
-        },
-      ],
-    };
-  }
-
-  _renderItem = ({item, index}) => {
-    return (
-      <View
+const renderText = (text) => (
+  <View style={{marginVertical: 10, marginHorizontal: 24}}>
+    <View>
+      <Text
         style={{
-          backgroundColor: Colors.keppel,
-          borderRadius: 5,
-          height: 250,
-          padding: 50,
+          ...Fonts.style.f18r,
+          color: Colors.sasquathSocks,
         }}>
-        <LottieView ref={this.setAnim} source={item.animations} loop autoPlay />
-      </View>
-    );
-  };
+        {'• ' + text}
+      </Text>
+    </View>
+  </View>
+);
 
-  render() {
-    return (
-      <View
-        style={{
-          flex: 1,
-          marginTop: 20,
-        }}>
-        {/* DO"S */}
-        <Text
-          style={{
-            ...Fonts.style.f38b,
-            textAlign: 'center',
-            color: Colors.magentaPurple,
-          }}>
-          {"DONT's"}
-        </Text>
-        <Carousel
-          layout={'default'}
-          ref={(ref) => (this.carousel = ref)}
-          data={this.state.carouselItems}
-          sliderWidth={Metrics.screenWidth}
-          itemWidth={Metrics.screenWidth - 100}
-          renderItem={this._renderItem}
-          onSnapToItem={(index) => this.setState({activeIndex: index})}
-        />
-        <View style={{margin: 20}}>
-          <View style={{alignItems: 'center'}}>
-            <Text
-              style={{
-                ...Fonts.style.f23b,
-                textAlign: 'center',
-                color: Colors.endingNavyBlue,
-              }}>
-              {this.state.carouselItems[this.state.activeIndex].title}
-            </Text>
-            <Text
-              style={{
-                ...Fonts.style.f18r,
-                textAlign: 'center',
-                color: Colors.magentaPurple,
-              }}>
-              {this.state.carouselItems[this.state.activeIndex].text}
-            </Text>
-          </View>
-        </View>
-      </View>
-    );
-  }
-}
+export default DontUI;
