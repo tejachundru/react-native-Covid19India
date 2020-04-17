@@ -9,7 +9,6 @@ import {
   Header,
   Body,
   Title,
-  Button,
   Left,
   Icon,
   Container,

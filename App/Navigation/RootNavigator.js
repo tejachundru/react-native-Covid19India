@@ -7,6 +7,7 @@ import HomeContainer from '../Modules/Home/Containers/Index';
 import StateDistrictContainer from '../Modules/Home/Containers/StateDataContainer';
 // import AppNavigator from './AppNavigator'; //
 import {createDrawerNavigator} from '@react-navigation/drawer';
+import DoContainer from '../Modules/DoAndDonts.js/Containers/DoContainer';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -16,7 +17,7 @@ function RootNavigator() {
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="HomeDrawer">
         <Drawer.Screen name="HomeDrawer" component={HomeNavigator} />
-        <Drawer.Screen name="Do & Dont's" component={Splash} />
+        <Drawer.Screen name="Do & Dont's" component={DoContainer} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
