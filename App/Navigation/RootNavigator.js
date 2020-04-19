@@ -13,6 +13,7 @@ import DoContainer from '../Modules/DoAndDonts.js/Containers/DoContainer';
 import {Colors, Fonts, Metrics} from '../Modules/Themes';
 import LottieView from 'lottie-react-native';
 import {View} from 'react-native';
+import AboutContainer from '../Modules/About/Containers/AboutContainer';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -50,7 +51,8 @@ function RootNavigator() {
         }}
         initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomeNavigator} />
-        <Drawer.Screen name="More" component={DoContainer} />
+        <Drawer.Screen name="Do's & Dont's" component={DoContainer} />
+        <Drawer.Screen name="About" component={AboutContainer} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

@@ -44,7 +44,7 @@ export default class DoContainer extends PureComponent {
                 ...Fonts.style.f28b,
                 color: Colors.blueBell,
               }}>
-              {'More'}
+              {'D*D'}
             </Title>
           </Body>
           <Right />
