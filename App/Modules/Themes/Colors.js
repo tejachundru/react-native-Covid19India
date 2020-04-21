@@ -24,6 +24,7 @@ const colors = {
   grey: '#888888',
   background1: '#B721FF',
   background2: '#21D4FD',
+  silver: '#C0C0C0',
 };
 
 export default colors;

@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.covid19india"
+        applicationId "com.covid19indiateja"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

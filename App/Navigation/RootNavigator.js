@@ -12,7 +12,7 @@ import {
 import DoContainer from '../Modules/DoAndDonts.js/Containers/DoContainer';
 import {Colors, Fonts, Metrics} from '../Modules/Themes';
 import LottieView from 'lottie-react-native';
-import {View} from 'react-native';
+import {View, Text} from 'react-native';
 import AboutContainer from '../Modules/About/Containers/AboutContainer';
 
 const Stack = createStackNavigator();
@@ -21,7 +21,7 @@ const Drawer = createDrawerNavigator();
 function CustomDrawerContent(props) {
   return (
     <DrawerContentScrollView {...props}>
-      <View style={{backgroundColor: Colors.shipOfficer}}>
+      <View style={{backgroundColor: Colors.richGardenia}}>
         <LottieView
           source={require('../../assets/Animations/18795-coronavirus.json')}
           autoPlay
@@ -30,6 +30,10 @@ function CustomDrawerContent(props) {
             width: Metrics.screenWidth / 1.5,
           }}
         />
+        <Text
+          style={{...Fonts.style.f23b, color: 'white', textAlign: 'center'}}>
+          {"LET'S FIGHT IT TOGETHER"}
+        </Text>
       </View>
       <DrawerItemList {...props} />
     </DrawerContentScrollView>
@@ -45,7 +49,7 @@ function RootNavigator() {
           width: Metrics.screenWidth / 1.5,
         }}
         drawerContentOptions={{
-          labelStyle: Fonts.style.f20m,
+          labelStyle: Fonts.style.f16m,
           activeTintColor: Colors.magentaPurple,
           inactiveTintColor: 'grey',
         }}

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {View, TouchableOpacity} from 'react-native';
 import StateDistrictUI from '../Components/StateDistrictUI';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {Header, Body, Title, Container, Content} from 'native-base';
+import {Header, Body, Title, Container, Content, Left} from 'native-base';
 import {Colors, Fonts} from '../../Themes';
 
 export default class StateDistrictContainer extends Component {
@@ -18,14 +18,11 @@ export default class StateDistrictContainer extends Component {
     return (
       <Container>
         <Header>
-          <TouchableOpacity onPress={() => this.props.navigation.pop()}>
-            <Icon
-              name={'angle-left'}
-              size={40}
-              style={{marginLeft: 20}}
-              color={Colors.shipOfficer}
-            />
-          </TouchableOpacity>
+          <Left style={{paddingLeft: 20}}>
+            <TouchableOpacity onPress={() => this.props.navigation.pop()}>
+              <Icon name={'angle-left'} size={40} color={Colors.shipOfficer} />
+            </TouchableOpacity>
+          </Left>
           <Body>
             <Title
               style={{

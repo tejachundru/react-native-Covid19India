@@ -1,4 +1,4 @@
-package com.covid19india;
+package com.covid19indiateja;
 
 import com.facebook.react.ReactActivity;
 

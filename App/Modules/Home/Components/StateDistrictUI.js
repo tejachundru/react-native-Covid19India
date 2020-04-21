@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Text, View, FlatList, StyleSheet} from 'react-native';
 import {Fonts, Colors, Metrics} from '../../Themes';
 import {stateCodesMap} from '../../Utils';
+import {Item} from 'native-base';
 
 const StateDistrictUI = (props) => {
   let [districtWise, sortdistrictWise] = useState(
@@ -9,31 +10,44 @@ const StateDistrictUI = (props) => {
   );
   let stateData = props.stateData;
 
-  let renderTextItem = (type, itemNo) => {
+  let renderTextItem = (type, itemNo, delta, color) => {
     return (
       <View style={styles.textView}>
         <Text style={{...Fonts.style.f16m, color: Colors.sarawakWhitePepper}}>
           {type}
         </Text>
-        <Text style={{...Fonts.style.f18b, color: Colors.sweetGarden}}>
-          {itemNo}
-        </Text>
+        <View style={{flexDirection: 'row', alignItems: 'center'}}>
+          <Text style={{...Fonts.style.f18b, color: Colors.white}}>
+            {itemNo}
+          </Text>
+          <Text style={{...Fonts.style.f12b, color: color}}>
+            {delta > 0 ? '  ↑ ' + delta : ''}
+          </Text>
+        </View>
       </View>
     );
   };
 
-  let renderStateTextItem = (type, itemNo) => {
+  let renderStateTextItem = (type, itemNo, delta) => {
     return (
       <View>
         <Text style={{...Fonts.style.f14m, color: Colors.honeyGlow}}>
           {type}
         </Text>
-        <Text style={{...Fonts.style.f18b, color: Colors.white}}>{itemNo}</Text>
+        <View style={{flexDirection: 'row', alignItems: 'center'}}>
+          <Text style={{...Fonts.style.f18b, color: Colors.white}}>
+            {itemNo}
+          </Text>
+          <Text style={{...Fonts.style.f12b, color: Colors.georgiaPeach}}>
+            {delta > 0 ? '  ↑ ' + delta : ''}
+          </Text>
+        </View>
       </View>
     );
   };
 
   const renderStateData = (item, index, district) => {
+    let {delta = {}} = item;
     return (
       <View style={styles.item}>
         <View style={{flex: 0.6}}>
@@ -44,27 +58,49 @@ const StateDistrictUI = (props) => {
           </Text>
         </View>
         <View style={{flex: 0.4}}>
-          {renderStateTextItem('Confirmed', item.confirmed)}
+          {renderStateTextItem(
+            'Confirmed',
+            item.confirmed,
+            Object.keys(delta).length > 0 ? delta.confirmed : '',
+          )}
         </View>
       </View>
     );
   };
 
   const renderIndiaData = () => {
+    let {
+      state,
+      confirmed,
+      deltaconfirmed,
+      active,
+      recovered,
+      deltarecovered,
+      deaths,
+      deltadeaths,
+    } = stateData;
     return (
       <View style={styles.indianData}>
         <View style={styles.indiaTextContainer}>
-          <Text style={styles.titleFont}>
-            {stateCodesMap[stateData.statecode]}
-          </Text>
+          <Text style={styles.titleFont}>{state}</Text>
           <View>
             <View style={styles.rowAround}>
-              {renderTextItem('Confirmed', stateData.confirmed)}
-              {renderTextItem('Active', stateData.active)}
+              {renderTextItem(
+                'Confirmed',
+                confirmed,
+                deltaconfirmed,
+                Colors.georgiaPeach,
+              )}
+              {renderTextItem('Active', active)}
             </View>
             <View style={styles.rowAround}>
-              {renderTextItem('Recovered', stateData.recovered)}
-              {renderTextItem('Deaths', stateData.deaths)}
+              {renderTextItem(
+                'Recovered',
+                recovered,
+                deltarecovered,
+                Colors.sweetGarden,
+              )}
+              {renderTextItem('Deaths', deaths, deltadeaths, Colors.silver)}
             </View>
           </View>
         </View>
