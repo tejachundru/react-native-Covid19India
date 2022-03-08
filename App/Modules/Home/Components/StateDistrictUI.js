@@ -53,7 +53,8 @@ const StateDistrictUI = (props) => {
         <View style={{flex: 0.6}}>
           <Text
             numberOfLines={2}
-            style={{...Fonts.style.f20m, color: Colors.white}}>
+            style={{...Fonts.style.f20m, color: Colors.white}}
+          >
             {district}
           </Text>
         </View>
@@ -112,7 +113,8 @@ const StateDistrictUI = (props) => {
     <View
       style={{
         flex: 1,
-      }}>
+      }}
+    >
       <FlatList
         ListHeaderComponent={renderIndiaData()}
         data={Object.keys(districtWise)}

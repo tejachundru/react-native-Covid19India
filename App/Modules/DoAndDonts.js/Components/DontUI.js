@@ -21,7 +21,8 @@ const DontUI = ({params}) => (
         ...Fonts.style.f38b,
         textAlign: 'center',
         color: Colors.georgiaPeach,
-      }}>
+      }}
+    >
       {"DONT's"}
     </Text>
     {dont.map((object) => {
@@ -37,7 +38,8 @@ const renderText = (text) => (
         style={{
           ...Fonts.style.f18r,
           color: Colors.sasquathSocks,
-        }}>
+        }}
+      >
         {'• ' + text}
       </Text>
     </View>

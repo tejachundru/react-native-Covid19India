@@ -57,7 +57,8 @@ export default class HomeContainer extends Component {
         <Header>
           <Left style={{paddingLeft: 20}}>
             <TouchableOpacity
-              onPress={() => this.props.navigation.toggleDrawer()}>
+              onPress={() => this.props.navigation.toggleDrawer()}
+            >
               <Icon name="md-menu" size={30} color={Colors.blueBell} />
             </TouchableOpacity>
           </Left>
@@ -66,7 +67,8 @@ export default class HomeContainer extends Component {
               style={{
                 ...Fonts.style.f28b,
                 color: Colors.blueBell,
-              }}>
+              }}
+            >
               {'Home'}
             </Title>
           </Body>
@@ -89,7 +91,8 @@ export default class HomeContainer extends Component {
               </Text>
               <TouchableOpacity
                 style={styles.retryButton}
-                onPress={this.getIndiaData}>
+                onPress={this.getIndiaData}
+              >
                 <Text style={{...Fonts.style.f20m, color: Colors.blueBell}}>
                   {'Retry'}
                 </Text>

@@ -31,7 +31,8 @@ function CustomDrawerContent(props) {
           }}
         />
         <Text
-          style={{...Fonts.style.f23b, color: 'white', textAlign: 'center'}}>
+          style={{...Fonts.style.f23b, color: 'white', textAlign: 'center'}}
+        >
           {"LET'S FIGHT IT TOGETHER"}
         </Text>
       </View>
@@ -53,7 +54,8 @@ function RootNavigator() {
           activeTintColor: Colors.magentaPurple,
           inactiveTintColor: 'grey',
         }}
-        initialRouteName="Home">
+        initialRouteName="Home"
+      >
         <Drawer.Screen name="Home" component={HomeNavigator} />
         <Drawer.Screen name="Do's & Dont's" component={DoContainer} />
         <Drawer.Screen name="About" component={AboutContainer} />
