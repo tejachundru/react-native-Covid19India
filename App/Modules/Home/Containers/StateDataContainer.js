@@ -29,7 +29,8 @@ export default class StateDistrictContainer extends Component {
                 ...Fonts.style.f28b,
                 color: Colors.blueBell,
                 marginRight: 20,
-              }}>
+              }}
+            >
               {'State'}
             </Title>
           </Body>

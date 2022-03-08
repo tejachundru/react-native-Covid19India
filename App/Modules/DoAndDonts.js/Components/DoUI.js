@@ -13,39 +13,33 @@ export default class DoUI extends React.Component {
       carouselItems: [
         {
           title: 'Hand Wash',
-          text:
-            'Practice frequent hand washing. Wash hands with soap and water or use alcohol-based hand rub. Wash hands even if they are visibly clean.',
+          text: 'Practice frequent hand washing. Wash hands with soap and water or use alcohol-based hand rub. Wash hands even if they are visibly clean.',
           animations: require('../../../../assets/Animations/17855-clean-hands-coronavirus.json'),
         },
         {
           title: 'Cover your Nose & Mouth',
-          text:
-            'Cover your nose and mouth with handkerchief/tissue while sneezing and coughing.',
+          text: 'Cover your nose and mouth with handkerchief/tissue while sneezing and coughing.',
 
           animations: require('../../../../assets/Animations/17859-sneeze-coronavirus.json'),
         },
         {
           title: 'Wear a Mask',
-          text:
-            'If you feel unwell (fever, difficulty in breathing and coughing) or a person who is caring for the sick or going out. wear a mask to cover your mouth and nose.',
+          text: 'If you feel unwell (fever, difficulty in breathing and coughing) or a person who is caring for the sick or going out. wear a mask to cover your mouth and nose.',
           animations: require('../../../../assets/Animations/17857-doctor-with-mask-coronavirus.json'),
         },
         {
           title: 'Social Distancing',
-          text:
-            'Maintain a safe distance from persons during interaction, especially with those having flu-like symptoms.',
+          text: 'Maintain a safe distance from persons during interaction, especially with those having flu-like symptoms.',
           animations: require('../../../../assets/Animations/18389-social-distancing.json'),
         },
         {
           title: 'Call Helplines',
-          text:
-            'For any fever/flu-like signs/symptoms, please call State helpline number or the 24x7 helpline number of the Ministry of Health & Family Welfare at 011-23978046.',
+          text: 'For any fever/flu-like signs/symptoms, please call State helpline number or the 24x7 helpline number of the Ministry of Health & Family Welfare at 011-23978046.',
           animations: require('../../../../assets/Animations/4452-dr-consultation.json'),
         },
         {
           title: 'Stay Home',
-          text:
-            'Stay Home & Stay safe. \n Break the Chain \n Flatten the curve',
+          text: 'Stay Home & Stay safe. \n Break the Chain \n Flatten the curve',
           animations: require('../../../../assets/Animations/18168-stay-safe-stay-home.json'),
         },
       ],
@@ -69,7 +63,8 @@ export default class DoUI extends React.Component {
           shadowRadius: 4.65,
 
           elevation: 8,
-        }}>
+        }}
+      >
         <LottieView ref={this.setAnim} source={item.animations} loop autoPlay />
       </View>
     );
@@ -81,14 +76,16 @@ export default class DoUI extends React.Component {
         style={{
           flex: 1,
           marginTop: 20,
-        }}>
+        }}
+      >
         {/* DO"S */}
         <Text
           style={{
             ...Fonts.style.f38b,
             textAlign: 'center',
             color: Colors.magentaPurple,
-          }}>
+          }}
+        >
           {"DO's"}
         </Text>
         <Carousel
@@ -107,7 +104,8 @@ export default class DoUI extends React.Component {
                 ...Fonts.style.f23b,
                 textAlign: 'center',
                 color: Colors.endingNavyBlue,
-              }}>
+              }}
+            >
               {this.state.carouselItems[this.state.activeIndex].title}
             </Text>
             <Text
@@ -115,7 +113,8 @@ export default class DoUI extends React.Component {
                 ...Fonts.style.f18r,
                 textAlign: 'center',
                 color: Colors.magentaPurple,
-              }}>
+              }}
+            >
               {this.state.carouselItems[this.state.activeIndex].text}
             </Text>
           </View>

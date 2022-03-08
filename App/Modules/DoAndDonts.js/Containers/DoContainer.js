@@ -34,7 +34,8 @@ export default class DoContainer extends PureComponent {
         <Header>
           <Left style={{paddingLeft: 20}}>
             <TouchableOpacity
-              onPress={() => this.props.navigation.toggleDrawer()}>
+              onPress={() => this.props.navigation.toggleDrawer()}
+            >
               <Icon name="md-menu" size={30} color={Colors.blueBell} />
             </TouchableOpacity>
           </Left>
@@ -43,7 +44,8 @@ export default class DoContainer extends PureComponent {
               style={{
                 ...Fonts.style.f28b,
                 color: Colors.blueBell,
-              }}>
+              }}
+            >
               {'D*D'}
             </Title>
           </Body>

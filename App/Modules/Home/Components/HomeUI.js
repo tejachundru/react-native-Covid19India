@@ -127,11 +127,13 @@ const HomeUI = (props) => {
             districtWiseResponse: stateDistrictWiseResponse[stateName],
           });
         }}
-        style={styles.item}>
+        style={styles.item}
+      >
         <View style={{flex: 0.4}}>
           <Text
             numberOfLines={2}
-            style={{...Fonts.style.f20m, color: Colors.white}}>
+            style={{...Fonts.style.f20m, color: Colors.white}}
+          >
             {state}
           </Text>
           <Text style={{...Fonts.style.f12m, color: Colors.honeyGlow}}>
@@ -209,12 +211,14 @@ const HomeUI = (props) => {
           style={{
             ...Fonts.style.f23b,
             color: Colors.white,
-          }}>
+          }}
+        >
           {'State Data'}
         </Text>
         <TouchableOpacity
           onPress={() => refRBSheet.current.open()}
-          style={styles.sortIconView}>
+          style={styles.sortIconView}
+        >
           <Icon name="sort-amount-desc" size={20} color={Colors.white} />
         </TouchableOpacity>
       </View>
@@ -245,7 +249,8 @@ const HomeUI = (props) => {
           refRBSheet.current.close();
           onSheetItemClick(sheetItem);
         }}
-        style={styles.sheetItem}>
+        style={styles.sheetItem}
+      >
         <Text style={styles.sheetText}>{sheetItem}</Text>
         <Icon name="sort-amount-desc" size={20} color={Colors.georgiaPeach} />
       </TouchableOpacity>
@@ -256,7 +261,8 @@ const HomeUI = (props) => {
     <View
       style={{
         flex: 1,
-      }}>
+      }}
+    >
       <FlatList
         ListHeaderComponent={renderIndiaData()}
         data={statewise}
@@ -275,7 +281,8 @@ const HomeUI = (props) => {
           draggableIcon: {
             backgroundColor: '#000',
           },
-        }}>
+        }}
+      >
         <View>
           {renderSheetItem('Confirmed')}
           {renderSheetItem('Active')}

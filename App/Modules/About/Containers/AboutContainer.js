@@ -52,10 +52,8 @@ const terminology = {
     'the first individual infected with a disease during an epidemic.',
   'PERSON-TO-PERSON TRANSMISSION':
     'when a virus is spread between people, including physical contact or coughing and sneezing. This is in contrast to when a virus is spread via animals or through contaminated objects or surfaces.',
-  PPE:
-    'personal protective equipment, or PPE, is specialised clothing and equipment used as a safeguard against health hazards including exposure to infectious diseases through physical contact or airborne particles. PPE is designed to protect parts of the body typically exposed in normal attire, including the nose, mouth, eyes, hands and feet. Notably, N95 respirators are considered ideal for health care workers who may be exposed to SARS-CoV-2.',
-  PUI:
-    'person under investigation, or a PUI, is an individual who is suspected of potentially having COVID-19.',
+  PPE: 'personal protective equipment, or PPE, is specialised clothing and equipment used as a safeguard against health hazards including exposure to infectious diseases through physical contact or airborne particles. PPE is designed to protect parts of the body typically exposed in normal attire, including the nose, mouth, eyes, hands and feet. Notably, N95 respirators are considered ideal for health care workers who may be exposed to SARS-CoV-2.',
+  PUI: 'person under investigation, or a PUI, is an individual who is suspected of potentially having COVID-19.',
   RESPIRATOR:
     'a device designed to protect individuals from inhaling something hazardous in the air, in this case, particulate that may be contaminated with the SARS-CoV-2 virus.',
   'SARS-CoV2':
@@ -102,7 +100,8 @@ export default class AboutContainer extends Component {
         <Header>
           <Left style={{paddingLeft: 20}}>
             <TouchableOpacity
-              onPress={() => this.props.navigation.toggleDrawer()}>
+              onPress={() => this.props.navigation.toggleDrawer()}
+            >
               <Icon name="md-menu" size={30} color={Colors.blueBell} />
             </TouchableOpacity>
           </Left>
@@ -111,7 +110,8 @@ export default class AboutContainer extends Component {
               style={{
                 ...Fonts.style.f28b,
                 color: Colors.blueBell,
-              }}>
+              }}
+            >
               {'About'}
             </Title>
           </Body>
@@ -120,12 +120,14 @@ export default class AboutContainer extends Component {
         <Content>
           <View style={{flex: 1, margin: 20}}>
             <Text
-              style={{...Fonts.style.f18b, color: Colors.highligterLavender}}>
+              style={{...Fonts.style.f18b, color: Colors.highligterLavender}}
+            >
               {'Some Common terminology you hear about the COVID-19\n'}
             </Text>
             {this.renderTextView()}
             <Text
-              style={{...Fonts.style.f18b, color: Colors.highligterLavender}}>
+              style={{...Fonts.style.f18b, color: Colors.highligterLavender}}
+            >
               {'Where do we get the data ?'}
             </Text>
             <Text style={{...Fonts.style.f14r}}>
@@ -135,7 +137,8 @@ export default class AboutContainer extends Component {
             </Text>
             <Text
               style={{color: 'blue', ...Fonts.style.f14b}}
-              onPress={() => Linking.openURL('https://api.covid19india.org')}>
+              onPress={() => Linking.openURL('https://api.covid19india.org')}
+            >
               https://api.covid19india.org
             </Text>
             <Text style={{...Fonts.style.f14r}}>
@@ -143,11 +146,13 @@ export default class AboutContainer extends Component {
             </Text>
             <Text
               style={{color: 'blue', ...Fonts.style.f14b}}
-              onPress={() => Linking.openURL('https://www.covid19india.org/')}>
+              onPress={() => Linking.openURL('https://www.covid19india.org/')}
+            >
               https://www.covid19india.org
             </Text>
             <Text
-              style={{...Fonts.style.f18b, color: Colors.highligterLavender}}>
+              style={{...Fonts.style.f18b, color: Colors.highligterLavender}}
+            >
               {'\nAnimations here are from ?'}
             </Text>
             <Text style={{...Fonts.style.f14r}}>
@@ -159,7 +164,8 @@ export default class AboutContainer extends Component {
                 Linking.openURL(
                   'https://lottiefiles.com/coronavirus-animations',
                 )
-              }>
+              }
+            >
               {'Lottie Corona Animations'}
             </Text>
           </View>
